@@ -1,6 +1,6 @@
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
   <Package Name="QuickStart Example" Manufacturer="ACME Corp"
            Version="0.0.1" UpgradeCode="31847442-fba4-4308-b8e2-3a16e0656b41">
-    <File Source="sample.txt" />
+    <Directory Source="$projpath\..\src\GitInfo-cli\bin\Release\net8.0\publish" />
   </Package>
 </Wix>

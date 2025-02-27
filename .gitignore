@@ -1,5 +1,5 @@
 .vs/
 src/*/obj/
 src/*/bin/
-dist/wix/bin/
-dist/wix/obj/
+dist/*/bin/
+dist/*/obj/
