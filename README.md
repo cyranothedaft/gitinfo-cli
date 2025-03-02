@@ -1,17 +1,9 @@
 # gitinfo-cli
-CLI tool to get info about local git repositories
+A command-line tool that provides useful detail and summary information about one or more local git repositories.  This is a beta/pre-release version.
 
-tech stack
-wix toolset	https://docs.firegiant.com/quick-start/
-maybe nsis
-actually maybe msix: https://learn.microsoft.com/en-us/windows/msix/desktop/source-code-overview
+packaging - chocolatey (portable)
 
-other tools used/useful
-orca    https://learn.microsoft.com/en-us/windows/win32/msi/orca-exe
-
-branching
-
-follows this:  https://gist.github.com/jpolete/aa31b9043e8e90f8a47c7738669555fa
+branching - similar to this:  https://gist.github.com/jpolete/aa31b9043e8e90f8a47c7738669555fa
 		, but "main" instead of "master"
 
 
