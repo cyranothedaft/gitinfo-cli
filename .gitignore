@@ -1,4 +1,8 @@
+*.user
 .vs/
-*/obj/
-*/bin/
-
+src/*/obj/
+src/*/bin/
+dist/chocolatey-package-source/gitinfo.portable/tools/
+dist/chocolatey-package
+dist/WixTools-MsiPackager/obj
+dist/WixTools-MsiPackager/bin
