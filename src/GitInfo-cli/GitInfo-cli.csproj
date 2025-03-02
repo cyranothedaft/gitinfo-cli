@@ -8,7 +8,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>12.0</LangVersion>
     <AssemblyName>gitinfo</AssemblyName>
-    <Version>0.9.0-beta</Version>
+    <Version>0.0.1-beta</Version>
   </PropertyGroup>
 
   <ItemGroup>
