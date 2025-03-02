@@ -3,7 +3,4 @@ A command-line tool that provides useful detail and summary information about on
 
 packaging - chocolatey (portable)
 
-branching - similar to this:  https://gist.github.com/jpolete/aa31b9043e8e90f8a47c7738669555fa
-		, but "main" instead of "master"
-
-
+branching - basically, this:  https://gist.github.com/jpolete/aa31b9043e8e90f8a47c7738669555fa
