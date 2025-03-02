@@ -1,3 +1,5 @@
+# TODO: perform this via a ~make-like tool
+
 . "$PSScriptRoot\_shared-functions.ps1"
 
 prog '<publish> source --> staging ...'
@@ -6,8 +8,6 @@ $exitcode = $LastExitCode
 # Write-Host -ForegroundColor DarkGray "ex:$exitcode"
 if ( $exitcode -ne 0 ) { exit $exitcode }
 
-prog '<build msi> staging --> package bin...'
-pwsh -WorkingDirectory "$PSScriptRoot\WixTools-MsiPackager" -Command "dotnet build"
-$exitcode = $LastExitCode
-# Write-Host -ForegroundColor DarkGray "ex:$exitcode"
-if ( $exitcode -ne 0 ) { exit $exitcode }
+
+# msi-wix\publish.ps1
+
